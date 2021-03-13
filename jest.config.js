@@ -8,7 +8,7 @@ module.exports = {
   // automock: false,
 
   // Stop running tests after `n` failures
-  // bail: 0,
+  bail: true,
 
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "C:\\Users\\danil\\AppData\\Local\\Temp\\jest",
@@ -93,7 +93,7 @@ module.exports = {
   // notifyMode: "failure-change",
 
   // A preset that is used as a base for Jest's configuration
-  // preset: undefined,
+  //preset: "js-jest",
 
   // Run tests from one or more projects
   // projects: undefined,
@@ -147,7 +147,7 @@ module.exports = {
 
   // The glob patterns Jest uses to detect test files
   testMatch: [
-    "<rootDir>/src/__tests__/*.spec.js",
+    "**/__tests__/*.spec.js",
   ],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
